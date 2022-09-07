@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaf3312c-9cd7-4df4-bcd5-ac073de366bd">
+  <producedTypes>
+    <objectType typeId="233ffa55-cc1e-4594-9d01-188570d8540f" valueTypeId="5d641fc8-5587-4597-a1d1-944f44aff07a"/>
+    <refType typeId="9b9e3585-63b5-4616-b112-32e9d637e029" valueTypeId="d5666d48-78a1-42a8-858e-80376848d941"/>
+    <selectionType typeId="c4ec96b6-5fb0-4490-bb2b-5640ed12f967" valueTypeId="7a0d8752-78c4-4ba6-b1eb-7f1237077c39"/>
+    <listType typeId="77ae2d6f-a91a-4612-af84-6c5c32db5d90" valueTypeId="82684b00-48f1-449c-95f4-a53dadeac4bc"/>
+    <managerType typeId="5b5382ea-596e-4f6c-ba65-1a564db42c97" valueTypeId="5b3a9826-adfc-4183-8e45-084739b645ec"/>
+  </producedTypes>
+  <name>Аудитории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аудитории</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аудитории.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аудитории.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d28337e0-4de1-481f-814b-c88de7fc9eac">
+    <name>Этаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="327d5a26-3db9-4321-8be0-c818e044e975">
+    <name>КоличествоМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e411322-5f97-4190-89aa-27d6ff73c6e5">
+  <producedTypes>
+    <refType typeId="ce9ec479-8920-44e3-b11e-9f58db5a5249" valueTypeId="9eb60579-690a-442e-b8d4-f8ed6cec2ec8"/>
+    <listType typeId="8e1371e7-9360-4468-b78d-b789869a9655" valueTypeId="24bdb0f9-d90c-4d45-9974-00eb02570982"/>
+    <managerType typeId="c712f9cb-3e38-4a30-a3c4-3e9f01679777" valueTypeId="3c1e3854-15e2-4f86-baa8-9fcd62d01399"/>
+  </producedTypes>
+  <name>ТипАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип абонемента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e37263d8-d7fb-4dde-95ab-805710ffd6c3">
+    <name>Индивидуальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="362f5910-b73e-45a4-bd91-75a6b3a9c92f">
+    <name>Групповой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

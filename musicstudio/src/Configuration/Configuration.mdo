@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a53f183-b361-4bce-9da6-7de09c814a52">
+  <name>МузыкальнаяСтудия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Музыкальная студия</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4306f2ed-95c9-42f9-9950-200f83c08622"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5b96191a-c0a8-4dc9-a72d-9806a9151b06"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f3d1dd14-a0f3-4691-8316-ce8bc7c817ef"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="20e0e259-086a-449f-98f4-e2a753fd0354"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5ed5cb48-2a76-47cf-b387-1b7692a7f064"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0be8d36c-3e3a-4412-9009-c4d57c662e1c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="973789f2-d08a-4510-95ba-f556e41921b9"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Дмитрий Козин</vendor>
+  <version>1.00</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="dcc1934b-2e6f-4e6a-a170-235da40bdd5e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Планирование</subsystems>
+  <subsystems>Subsystem.Персонал</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Аудитории</catalogs>
+  <catalogs>Catalog.Филиалы</catalogs>
+  <documents>Document.Абонемент</documents>
+  <documents>Document.Занятие</documents>
+  <documents>Document.ПКО</documents>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.ТипАбонемента</enums>
+  <dataProcessors>DataProcessor.ПланировщикЗанятий</dataProcessors>
+  <informationRegisters>InformationRegister.РасписаниеЗанятий</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.БалансАбонементов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКлиентами</accumulationRegisters>
+</mdclass:Configuration>

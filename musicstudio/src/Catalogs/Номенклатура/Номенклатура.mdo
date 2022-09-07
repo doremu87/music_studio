@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcc16b1d-325e-4b42-a3c0-5f78a19cff15">
+  <producedTypes>
+    <objectType typeId="83b5ab78-16a6-442a-a819-8fcac24ed012" valueTypeId="2a0bf504-ebaa-4eec-8f19-d55370f8940c"/>
+    <refType typeId="21f9abdf-2f81-446d-b9f4-a329f7e013cf" valueTypeId="f25455f3-87f0-4b03-bf39-69d242315d08"/>
+    <selectionType typeId="80214de1-ca49-456a-bb7d-ddb3038dd135" valueTypeId="b8aa418c-ceff-42b9-b272-467d07dbcce2"/>
+    <listType typeId="e1c20166-2635-4a9d-b7e0-6a336f43affd" valueTypeId="17d7139b-bce4-4e05-a889-b41cb880ebb3"/>
+    <managerType typeId="ad2b9927-8522-4351-8b7a-619816827a8f" valueTypeId="579291e5-e79b-4834-9c61-6669e654ced2"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="86d69400-26b4-488d-aba6-a4775f83f97a">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

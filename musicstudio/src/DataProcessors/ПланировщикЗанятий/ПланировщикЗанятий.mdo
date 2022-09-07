@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5421c948-00f6-446a-a085-0fcf08b3730f">
+  <producedTypes>
+    <objectType typeId="a4a4eeac-ff7b-4326-bfb0-5050b67bf5ee" valueTypeId="771e4ac8-a6f5-4116-9753-d33e72c59b5f"/>
+    <managerType typeId="6d114475-25ee-4d61-85a3-3b4045db1f69" valueTypeId="e2d0f0d0-009d-41be-9e43-bf82c4ec76a8"/>
+  </producedTypes>
+  <name>ПланировщикЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланировщикЗанятий.Form.Форма</defaultForm>
+  <forms uuid="f9c57234-e46f-4826-b5a8-b50f7749a56f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

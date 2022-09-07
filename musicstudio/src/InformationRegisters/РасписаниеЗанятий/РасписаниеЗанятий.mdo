@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3381f0e2-426c-4617-8a66-a9fef48803e6">
+  <producedTypes>
+    <selectionType typeId="fd6d34f1-c715-44eb-b1a2-5f3a5d7b6567" valueTypeId="325f77fd-377c-4cf8-b730-c957c976c901"/>
+    <listType typeId="4c70f559-effc-4f08-a89c-07a429db6da5" valueTypeId="2409101c-d783-41e3-8bac-6d25888177e9"/>
+    <managerType typeId="8ae82bd9-7081-4d25-bd7b-d8f05c3cf02c" valueTypeId="231dfda8-40b9-45da-acb4-998f7fa24018"/>
+    <recordSetType typeId="c5d4ea8d-242d-4518-b87b-55db38de7f08" valueTypeId="2638497c-5f2d-466d-a512-e5f8af401b17"/>
+    <recordKeyType typeId="257e0a7b-aef1-419c-ba3f-8f5ad027e35b" valueTypeId="de64c4bd-6f6c-4a28-a789-499c31c7b299"/>
+    <recordType typeId="9f64cede-f93c-454e-af5a-f4cf4e05cbc2" valueTypeId="75172648-c241-45c5-8f5f-55510da8c524"/>
+    <recordManagerType typeId="b56c04ae-f314-4dfd-ba14-923df93d05cf" valueTypeId="0f343a16-7b40-439f-ae7b-4060b9194fb4"/>
+  </producedTypes>
+  <name>РасписаниеЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание занятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0a344937-3957-47ac-b2e9-5ebf05b71b54">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55c8667c-a39c-4113-8c32-15c2e38e6278">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bc0a3c1e-5138-4384-bba0-2326cb079d54">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4dca65a6-dd1e-47fd-9b3b-c8408e5959c5">
+    <name>Аудитория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудитория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аудитории</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="98ab398b-24f0-428f-abdd-116aefe084ac">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

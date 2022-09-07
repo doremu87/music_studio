@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce9d11c0-79d2-4669-af64-fd5d52c66c86">
+  <producedTypes>
+    <selectionType typeId="d6dad108-3a94-41e6-a2f1-1044b67b7d36" valueTypeId="6adb42e0-97aa-4a84-b2b0-3455709ae719"/>
+    <listType typeId="90d1406a-dd87-4a37-b001-e42f21cd0afa" valueTypeId="d5270bd6-f849-43c2-a4f1-47bcdc134903"/>
+    <managerType typeId="7ff7bf3a-9e42-4967-8d4a-a0d6614ee8b7" valueTypeId="ff7f9df9-f483-4078-b328-3b740c2c49f3"/>
+    <recordSetType typeId="d45aaafe-45f2-4169-b841-81e062072e5c" valueTypeId="e5ed10ac-d197-45ab-9957-6bc9dd580aa2"/>
+    <recordKeyType typeId="6304b625-d0f9-4ae8-a148-e1701723870c" valueTypeId="d0b1c864-44ac-47e8-bc7f-5febb5bc94ed"/>
+    <recordType typeId="47455847-5bd9-486c-8f93-e4ed58062e8e" valueTypeId="d6db1de4-ffd0-4b6d-8b2e-9ea2913db14a"/>
+  </producedTypes>
+  <name>БалансАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс абонементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9fba6ed8-ef4c-42b7-9f92-92c78220b46c">
+    <name>Остаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f43a75a0-9ec4-4db3-acf0-e19b38600ee0">
+    <name>Абонемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонемент</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Абонемент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

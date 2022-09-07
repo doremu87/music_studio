@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f146a4-54e1-43dd-af03-49b25b417b75">
+  <producedTypes>
+    <objectType typeId="1813563f-e859-4986-9fca-c1271276fda5" valueTypeId="782c2fa6-27e2-4edc-8a50-847e772c478d"/>
+    <refType typeId="74138308-af77-4b02-959c-4fbb93ae7235" valueTypeId="d284b21a-1710-4a87-9e39-583494f2eeca"/>
+    <selectionType typeId="9394fc1f-ab01-4a33-9e50-c16575f05f73" valueTypeId="e37fa487-96d3-486a-8935-ce232c2aba71"/>
+    <listType typeId="bc7ef780-af46-4894-9a23-45cef0fbaf00" valueTypeId="06003c8b-3906-4df2-8cc4-0f2f5d86c276"/>
+    <managerType typeId="8ecf732e-b53f-4954-8049-3f581acb2692" valueTypeId="2be0660b-ad47-43ae-9dd4-6aba6f8cbc76"/>
+  </producedTypes>
+  <name>Абонемент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абонемент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Абонемент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Абонементы</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultListForm>Document.Абонемент.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.Абонемент.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.РасчетыСКлиентами</registerRecords>
+  <registerRecords>AccumulationRegister.БалансАбонементов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="fff986e6-ed24-4ee1-80ad-bd69935c3d63">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de76d0e2-257a-4400-9a25-55ccf66203b6">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.Абонемент.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6dccd8a-5c39-43c1-a515-0b56ce91fed5">
+    <name>ТипАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип абонемента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипАбонемента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b14ff9a1-5a82-4994-8f18-f59226f98ce1">
+    <name>КоличествоЗанятий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество занятий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14e2f207-4a6e-490a-96b5-16bbc9e4f1a7">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d41c9bb3-e701-4d18-b847-f767bce76468">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a93a0158-2574-4bdd-82da-870a25fef57f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
